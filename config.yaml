@@ -1,0 +1,18 @@
+name: "Lights Management"
+description: "Description"
+version: "0.0.4"
+slug: "lights_management"
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+startup: services
+ports:
+  8020/tcp: 8020
+options:
+    beer: true
+schema:
+    beer: bool
