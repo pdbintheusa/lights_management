@@ -1,1 +1,1 @@
-# lights_management
+# Lights Management
